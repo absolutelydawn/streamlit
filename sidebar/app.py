@@ -16,11 +16,11 @@ st.sidebar.write('**당신의 선택** : ', your_option)
 
 folder = './data/'
 
-image_files = ['',
-'Vermeer.png', 
-'Gogh.png', 
-'Munch.png', 
-'ShinYoonbok.png'
+image_files = [
+'https://github.com/absolutelydawn/streamlit/tree/main/sidebar/data/Vermeer.png?raw=true', 
+'https://github.com/absolutelydawn/streamlit/tree/main/sidebar/data/Gogh.png?raw=true', 
+'https://github.com/absolutelydawn/streamlit/tree/main/sidebar/data/Munch.png?raw=true', 
+'https://github.com/absolutelydawn/streamlit/tree/main/sidebar/data/ShinYoonbok.png?raw=true'
 ]
 
 selectbox_options_index = selectbox_options.index(your_option)
